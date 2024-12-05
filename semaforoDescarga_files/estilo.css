@@ -1,0 +1,273 @@
+/* Lucas Castro Antuña UO289769*/
+
+/* GAMA DE COLORES
+- Azul muy claro: #D4F1F4
+- Azul oscuro: #05445E
+- Azul cian: #75E6DA
+- Blanco: #ffffff
+- Negro: #000000
+- Azul lista: #004080
+*/
+
+/* Especificidad 001*/
+body {
+    font-family: "Times New Roman", sans-serif, serif;
+    font-size: 1.05em;
+    color: #000000;
+    background-color: #D4F1F4;
+    /*Estilo para la imagen de fondo*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Especificidad 001*/
+header {
+    background-color: #05445E;
+}
+
+/* Especificidad 012*/
+header a:visited {
+    /*Genera warning por no establecer color de fondo, pero lo hereda de header*/
+    color: #ffffff;
+}
+
+/* Especificidad 001*/
+nav {
+    background-color: #75E6DA;
+    font-size: 1.2em;
+}
+
+/* Especificidad 002*/
+nav a {
+    /*Genera warning por no establecer color de fondo, pero lo hereda de nav*/
+    color: #05445E;
+    padding: 1.3em;
+}
+
+/* Especificidad 012*/
+nav a:visited {
+    /*Genera warning por no establecer color de fondo, pero lo hereda de nav*/
+    color: #05445E;
+}
+
+/* Especificidad 012*/
+nav a:hover {
+    font-size: 1.05em;
+}
+
+/* Especificidad 012*/
+body > p:first-of-type {
+    font-size: 0.9em;
+}
+
+/* Especificidad 003*/
+li::marker {
+    /*Genera warning por no establecer color de fondo, pero lo hereda de body*/
+    color: #004080;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+/* Especificidad 001*/  
+ul {
+    list-style-type: "★ ";
+}
+
+/* Especificidad 001*/  
+ol {
+    list-style-type: lower-roman;
+}
+
+/* Especificidad 001*/  
+dt {
+    /*Genera warning por no establecer color de fondo, pero lo hereda de body*/
+    color: #05445E;
+    font-size: 1.25em;
+    font-weight: bold;
+    font-style: oblique;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    line-height: 1.5em;
+}
+
+/* Especificidad 001*/
+table {
+    font-family: sans-serif;
+    border-color: #05445E;
+    border-style: solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/* Especificidad 001*/
+th {
+    background-color: #05445E;
+    color: #D4F1F4;
+    border-color: #D4F1F4;
+    border-style: double;
+    border-width: 0.3em;
+    padding: 0.5em;
+}
+
+/* Especificidad 023*/
+table > tr:first-of-type > th:first-of-type {
+    color: #000000;
+    background-color: #D4F1F4;
+}
+
+/* Especificidad 001*/
+video {
+    width: 40%;
+    height: auto;
+}
+
+/* Especificidad 012*/
+nav a.active {
+    color: #000000;
+    background-color: #D4F1F4;
+    font-weight: bold;
+    border-radius: 1em;
+}
+
+/* Especificidad 001*/
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/* Especificidad 002*/
+h1 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Especificidad 001*/
+h2 {
+    font-size: 2em;
+    text-decoration-line: underline;
+}
+
+/* Especificidad 001*/
+h3 {
+    font-size: 1.8em;
+}
+
+/* Especificidad 001*/
+h4 {
+    font-size: 1.3em;
+}
+
+/*
+Utilizado para el mapa de la sesión 8
+Especificidad 001
+*/
+section > div {
+    width: 70%;
+    height: 40vw;
+}
+
+/* Especificidad 001*/
+figure {
+    width: 80%;
+    height: 50vw;
+}
+
+/* Especificidad 002*/
+svg > polyline {
+    fill: white;
+    stroke: red;
+    stroke-width: 4;
+}
+
+/* Especificidad 002*/
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* Especificidad 002*/
+main > article {
+    width: 100%;
+    max-width: 100vh;
+    height: 70vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1em;
+}
+
+/* Especificidad 003*/
+main > article > img {
+    width: 100%;
+    max-width: 100vh;
+    height: 60vh;
+    position: absolute;
+    transition: all 0.5s;
+    object-fit: cover;
+    border-radius: 0.5em;
+}
+
+/* Especificidad 003*/
+main > article > button {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    padding: 0.5em;
+    border: none;
+    border-radius: 50%;
+    z-index: 10;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+/* Especificidad 012*/
+article > button:nth-of-type(1) {
+    top: 50%;
+    left: 2%;
+}
+
+/* Especificidad 012*/
+article > button:nth-of-type(2) {
+    top: 50%;
+    right: 2%;
+}
+
+/* Especificidad 011*/
+button:active {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 799px) {
+
+    /* Especificidad 001*/
+    table {
+        font-size: 0.47em;
+        width: 100%;
+    }
+
+    /* Especificidad 012*/
+    table > caption:first-of-type {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    /* Especificidad 001*/
+    th {
+        /*Genera warning por redefinir el padding pero es necesario*/
+        padding: 0.2em;
+    }
+    
+    /* Especificidad 001*/
+    audio {
+        width: 85%;
+        height: auto;
+    }
+}
