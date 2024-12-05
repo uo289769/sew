@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>F1D: Meteorología</title>
+    <meta name ="author" content ="Lucas Castro Antuña" />
+    <meta name ="description" content ="Documento con la previsión meteorológica de una ciudad" />
+    <meta name ="keywords" content ="F1, Desktop, Meteorología" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/article_elements.css" />
+
+    <link rel="icon" href="multimedia/imagenes/favicon.png" />
+
+    <script
+		src="https://code.jquery.com/jquery-3.7.1.min.js"
+		integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+		crossorigin="anonymous">
+    </script>
+    <script src="js/pais.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" title="enlace al inicio">F1 Desktop</a></h1>
+        <nav>
+            <a href="index.html" title="enlace al inicio">Inicio</a>
+            <a href="piloto.html" title="enlace al piloto">Piloto</a>
+            <a href="noticias.html" title="enlace a noticias">Noticias</a>    
+            <a href="calendario.html" title="enlace al calendario">Calendario</a>
+            <a href="meteorología.html" title="enlace a meteorología" class="active">Meteorología</a>
+            <a href="circuito.html" title="enlace al circuito">Circuito</a>
+            <a href="viajes.php" title="enlace a viajes">Viajes</a>
+            <a href="juegos.html" title="enlace a juegos">Juegos</a>
+        </nav>
+    </header>
+
+    <p>Estás en: <a href="index.html" title="enlace al inicio">Inicio</a> >> Meteorología</p>
+
+    <main>
+        <h2>Meteorología</h2>
+        <h3>
+            <script>
+                document.write(pais.getCapital() + ", " + pais.getNombre())
+            </script>
+        </h3>
+    
+        <section>
+            <h3>Información secundaria</h3>
+            <script>
+                document.write(pais.getInformacionSecundaria())
+            </script>
+        </section>
+    
+        <section>
+            <h3>Coordenadas del circuito</h3>
+            <script>
+                pais.escribirCoordenadasMeta()
+            </script>
+        </section>
+    
+        <script>
+            pais.obtenerDatosMeteorologicos()
+        </script>
+    </main>
+
+</body>
+</html>

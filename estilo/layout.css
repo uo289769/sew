@@ -1,0 +1,57 @@
+/* Lucas Castro Antuña UO289769*/
+
+@media screen {
+    /* Especificidad 001*/
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* Especificidad 001*/
+    nav {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    /* Especificidad 001*/
+    header {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    /* Especificidad 001*/
+    nav {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* Especificidad 002*/
+    nav a {
+        padding: 0.5em;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    /* Especificidad 001*/
+    header {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    /* Especificidad 001*/
+    nav {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    /* Especificidad 002*/
+    nav a {
+        padding: 0.3em;
+    }
+}

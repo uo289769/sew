@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>F1D: Piloto</title>
+    <meta name ="author" content ="Lucas Castro Antuña" />
+    <meta name ="description" content ="documento con la información de Kevin Magnussen, piloto de F1" />
+    <meta name ="keywords" content ="F1, Piloto, Kevin, Magnussen, Información, Resultados" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+
+    <link rel="icon" href="multimedia/imagenes/favicon.png" />
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" title="enlace al inicio">F1 Desktop</a></h1>
+        <nav>
+            <a href="index.html" title="enlace al inicio">Inicio</a>
+            <a href="piloto.html" title="enlace al piloto" class="active">Piloto</a>
+            <a href="noticias.html" title="enlace a noticias">Noticias</a>    
+            <a href="calendario.html" title="enlace al calendario">Calendario</a>
+            <a href="meteorología.html" title="enlace a meteorología">Meteorología</a>
+            <a href="circuito.html" title="enlace al circuito">Circuito</a>
+            <a href="viajes.php" title="enlace a viajes">Viajes</a>
+            <a href="juegos.html" title="enlace a juegos">Juegos</a>
+        </nav>
+    </header>
+
+    <p>Estás en: <a href="index.html" title="enlace al inicio">Inicio</a> >> Piloto</p>
+
+    <main>
+        <h2>Piloto</h2>
+
+        <section>
+            <h3>Presentación</h3>
+            <p>Kevin Magnussen es un piloto danés de automovilismo hijo del ex piloto de F1 Jan Magnussen. Es conocido por su estilo de
+                conducción agresivo y su determinación en la pista. Además de la F1, ha competido en carreras de resistencia como 
+                las 24 Horas de Le Mans.
+            </p>
+        </section>
+
+        <section>
+            <h3>Datos personales</h3>
+            <p>Nombre: Kevin Magnussen</p>
+            <p>Dorsal: 20</p>
+            <p>Fecha de nacimiento: 5 de octubre de 1992</p>
+            <p>Lugar de nacimiento: Roskilde, Dinamarca</p>
+            <p>Lugar de residencia: Roskilde, Dinamarca</p>
+
+            <picture>
+                <source media="(max-width: 465px)" srcset="multimedia/imagenes/kevin-magnussen-2024-s.png" />
+                <source media="(max-width: 799px)" srcset="multimedia/imagenes/kevin-magnussen-2024-m.png" />
+                <source media="(min-width: 800px)" srcset="multimedia/imagenes/kevin-magnussen-2024-g.png" />
+                <img src="multimedia/imagenes/kevin-magnussen-2024-g.png" alt="Foto de Kevin Magnussen" />
+            </picture>
+        </section>
+
+        <section>
+            <h4>Aficiones</h4>
+            <ul>
+                <li>El ciclismo</li>
+                <li>Deportes acuáticos como el surf y el wakeboarding</li>
+                <li>La cocina</li>
+                <li>Viajar y conocer mundo</li>
+                <li>La aviación</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h4>Equipos para los que ha competido</h4>
+            <ol>
+                <li>McLaren (2014)</li>
+                <li>Renault (2016)</li>
+                <li>Haas F1 Team (2017-2020)</li>
+                <li>Haas F1 Team (2022-actualidad)</li>
+            </ol>
+        </section>
+
+        <!-- Interpreto que estos conceptos están relacionados con el piloto, por eso lo mantengo dentro del main -->
+        <aside>
+            <h4>Conceptos sobre la Fórmula 1</h4>
+            <dl>
+                <dt>Pit stop</dt>
+                <dd>Parada técnica que realiza un coche durante una carrera en el "pit lane", donde un equipo de mecánicos
+                    realiza diversas tareas, como el cambio de neumáticos.
+                </dd>
+                <dt>Pit lane</dt>
+                <dd>Vía o carril que se encuentra paralela a la pista principal, donde están ubicadas las boxes
+                    de cada equipo.
+                </dd>
+                <dt>DRS (Drag Reduction System)</dt>
+                <dd>Sistema que permite reducir la resistencia aerodinámica al abrir una parte del alerón trasero en 
+                    zonas específicas del circuito, aumentando las oportunidades de adelantamiento.
+                </dd>
+                <dt>Pole</dt>
+                <dd>Describe la primera posición en la parrilla de salida para una carrera. El piloto que obtiene la pole es el que
+                    logra el tiempo más rápido en la sesión de clasificación.
+                </dd>
+                <dt>Rake</dt>
+                <dd>Se refiere a la inclinación o ángulo del coche en relación con el suelo.</dd>
+            </dl>
+        </aside>
+        
+        <section>
+            <h4>Resultados más destacados en los últimos 3 años</h4>
+            <ul>
+                <li>Temporada 2022
+                    <ol>
+                        <li>5º lugar en el GP de Baréin</li>
+                        <li>9º lugar en el GP de Arabia Saudí</li>
+                        <li>9º lugar en el GP de Emilia-Romaña</li>
+                        <li>Pole position para la carrera sprint en el GP de São Paulo</li>
+                    </ol>
+                </li>
+                <li>Temporada 2023
+                    <ol>
+                        <li>10º lugar en el GP de Arabia Saudí</li>
+                        <li>10º lugar en el GP de Miami</li>
+                        <li>10º lugar en el GP de Singapur</li>
+                    </ol>
+                </li>
+                <li>Temporada 2024
+                    <ol>
+                        <li>8º lugar en el GP de Austria</li>
+                        <li>10º lugar en el GP de Italia</li>
+                        <li>10º lugar en el GP de Australia</li>
+                    </ol>
+                </li>
+            </ul>
+        </section>
+
+        <video controls>
+            <source src="multimedia/videos/kevin-magnussen-monza.mp4" type="video/mp4" />
+            <source src="multimedia/videos/kevin-magnussen-monza.webm" type="video/webm" />
+        </video>
+
+        <table>
+            <caption>Resultados en la última temporada</caption>
+            <tr>
+                <th scope="col" id="parametros">Parámetros</th>
+                <th scope="col" id="puntos">Puntos</th>
+                <th scope="col" id="pos">Posición</th>
+                <th scope="col" id="poles">Poles</th>
+                <th scope="col" id="victorias">Victorias</th>
+                <th scope="col" id="podios">Podios</th>
+            </tr>
+            <tr>
+                <th scope="row" id="resultados" headers="parametros">Resultados</th>
+                <td headers="resultados puntos">3</td>
+                <td headers="resultados pos">19</td>
+                <td headers="resultados poles">0</td>
+                <td headers="resultados victorias">0</td>
+                <td headers="resultados podios">0</td>
+            </tr>
+        </table>
+
+        <audio controls>
+            <source src="multimedia/audios/kevin-magnussen-audio.mp3" type="audio/mp3" />
+            <source src="multimedia/audios/kevin-magnussen-audio.wav" type="audio/wav" />
+        </audio>
+
+        <p>Sitios web relacionados con el piloto y su historia en la Fórmula 1:
+            La <a href="https://www.formula1.com/">web oficial de la Fórmula 1</a> y 
+            un sitio de noticias y análisis llamado <a href="https://www.planetf1.com/">PlanetF1</a>.
+        </p>
+    </main>
+    <!--
+    <table>
+        <caption>Resultados en la última temporada</caption>
+        <tr>
+            <th scope="col" id="parametros">Parámetros</th>
+            <th scope="col" id="barein">Baréin</th>
+            <th scope="col" id="arabia">Arabia Saudí</th>
+            <th scope="col" id="australia">Australia</th>
+            <th scope="col" id="azerbaiyan">Azerbaiyán</th>
+            <th scope="col" id="miami">Miami</th>
+            <th scope="col" id="monaco">Mónaco</th>
+            <th scope="col" id="espana">España</th>
+            <th scope="col" id="canada">Canadá</th>
+            <th scope="col" id="austria">Austria</th>
+            <th scope="col" id="gbr">Gran Bretaña</th>
+            <th scope="col" id="hungria">Hungría</th>
+            <th scope="col" id="belgica">Bélgica</th>
+            <th scope="col" id="ned">Países Bajos</th>
+            <th scope="col" id="italia">Italia</th>
+            <th scope="col" id="singapur">Singapur</th>
+            <th scope="col" id="japon">Japón</th>
+            <th scope="col" id="qatar">Qatar</th>
+            <th scope="col" id="usa">Estados Unidos</th>
+            <th scope="col" id="mejico">Méjico</th>
+            <th scope="col" id="saopaulo">São Paulo</th>
+            <th scope="col" id="lasvegas">Las Vegas</th>
+            <th scope="col" id="abudabi">Abu Dabi</th>
+        </tr>
+        <tr>
+            <th scope="row" id="puntos" headers="parametros">Puntos</th>
+            <td headers="puntos barein">0</td>
+            <td headers="puntos arabia">1</td>
+            <td headers="puntos australia">0</td>
+            <td headers="puntos azerbaiyan">0</td>
+            <td headers="puntos miami">1</td>
+            <td headers="puntos monaco">0</td>
+            <td headers="puntos espana">0</td>
+            <td headers="puntos canada">0</td>
+            <td headers="puntos austria">0</td>
+            <td headers="puntos gbr">0</td>
+            <td headers="puntos hungria">0</td>
+            <td headers="puntos belgica">0</td>
+            <td headers="puntos ned">0</td>
+            <td headers="puntos italia">0</td>
+            <td headers="puntos singapur">1</td>
+            <td headers="puntos japon">0</td>
+            <td headers="puntos qatar">0</td>
+            <td headers="puntos usa">0</td>
+            <td headers="puntos mejico">0</td>
+            <td headers="puntos saopaulo">0</td>
+            <td headers="puntos lasvegas">0</td>
+            <td headers="puntos abudabi">0</td>
+        </tr>
+        <tr>
+            <th scope="row" id="posicion" headers="parametros">Posición</th>
+            <td headers="posicion barein">13</td>
+            <td headers="posicion arabia">10</td>
+            <td headers="posicion australia">17</td>
+            <td headers="posicion azerbaiyan">13</td>
+            <td headers="posicion miami">10</td>
+            <td headers="posicion monaco">19</td>
+            <td headers="posicion espana">18</td>
+            <td headers="posicion canada">17</td>
+            <td headers="posicion austria">18</td>
+            <td headers="posicion gbr">Retirado</td>
+            <td headers="posicion hungria">17</td>
+            <td headers="posicion belgica">15</td>
+            <td headers="posicion ned">16</td>
+            <td headers="posicion italia">18</td>
+            <td headers="posicion singapur">10</td>
+            <td headers="posicion japon">15</td>
+            <td headers="posicion qatar">13</td>
+            <td headers="posicion usa">14</td>
+            <td headers="posicion mejico">Retirado</td>
+            <td headers="posicion saopaulo">Retirado</td>
+            <td headers="posicion lasvegas">13</td>
+            <td headers="posicion abudabi">20</td>
+        </tr>
+    </table> -->
+</body>
+</html>

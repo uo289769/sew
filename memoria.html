@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>F1D: Memoria</title>
+    <meta name ="author" content ="Lucas Castro Antuña" />
+    <meta name ="description" content ="Juego de adivinar los pares de imágenes iguales de F1Desktop" />
+    <meta name ="keywords" content ="F1, Desktop, Memoria, Juego, Pares, Imágenes, Iguales" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/memoria.css" />
+
+    <link rel="icon" href="multimedia/imagenes/favicon.png" />
+
+    <script src="js/memoria.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" title="enlace al inicio">F1 Desktop</a></h1>
+        <nav>
+            <a href="index.html" title="enlace al inicio">Inicio</a>
+            <a href="piloto.html" title="enlace al piloto">Piloto</a>
+            <a href="noticias.html" title="enlace a noticias">Noticias</a>    
+            <a href="calendario.html" title="enlace al calendario">Calendario</a>
+            <a href="meteorología.html" title="enlace a meteorología">Meteorología</a>
+            <a href="circuito.html" title="enlace al circuito">Circuito</a>
+            <a href="viajes.php" title="enlace a viajes">Viajes</a>
+            <a href="juegos.html" title="enlace a juegos" class="active">Juegos</a>
+        </nav>
+    </header>
+
+    <p>Estás en: 
+        <a href="index.html" title="enlace al inicio">Inicio</a> >> 
+        <a href="juegos.html" title="enlace a los juegos">Juegos</a> >> Memoria
+    </p>
+
+    <h2>Juegos >> Memoria</h2>
+
+    <section>
+        <h3>Acceso a los juegos</h3>
+        <nav>
+            <a href="memoria.html" title="enlace al juego de memoria">Memoria</a>
+            <a href="semaforo.php" title="enlace al juego del semaforo">Semáforo</a>
+            <a href="api.html" title="enlace a la api">API</a>
+        </nav>
+    </section>
+
+    <section>
+        <h2>Juego de memoria</h2>
+        <script>
+            var memoria = new Memoria();
+        </script>
+    </section>
+</body>
+</html>

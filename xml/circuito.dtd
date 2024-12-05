@@ -1,0 +1,24 @@
+<!ELEMENT circuitos (circuito+)>
+<!ELEMENT circuito (nombre, largura, anchura, fecha, hora, vueltas, localidad, pais, referencias, fotos, videos, coordenadas, puntos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT largura (#PCDATA)>
+<!ELEMENT anchura (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT vueltas (#PCDATA)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT referencias (referencia, referencia, referencia, referencia*)>
+<!ELEMENT referencia (#PCDATA)>
+<!ELEMENT fotos (foto, foto?, foto?, foto?, foto?)>
+<!ELEMENT foto (#PCDATA)>
+<!ELEMENT videos (video?, video?, video?)>
+<!ELEMENT video (#PCDATA)>
+<!ELEMENT coordenadas (longitud, latitud, altitud)>
+<!ELEMENT longitud (#PCDATA)>
+<!ELEMENT latitud (#PCDATA)>
+<!ELEMENT altitud (#PCDATA)>
+<!ELEMENT puntos (punto+)>
+<!ELEMENT punto (coordenadas, sector, distancia)>
+<!ELEMENT sector (#PCDATA)>
+<!ELEMENT distancia (#PCDATA)>

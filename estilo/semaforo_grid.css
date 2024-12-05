@@ -1,0 +1,138 @@
+/* Lucas Castro Antuña UO289769*/
+
+/*Especificidad 001*/
+main {
+    width: 60%;
+    height: 50%;
+    margin-left: 22%;
+    margin-top: -5%;
+    margin-bottom: 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5% 3%;
+    align-items: center;
+}
+
+/*Especificidad 002*/
+main h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: -0.9em;
+}
+
+/*Especificidad 002*/
+main h3 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin: 0;
+}
+
+/*Especificidad 002*/
+main ol {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 1em;
+}
+
+/*Especificidad 002*/
+main li {
+    list-style-position: inside;
+}
+
+/* Especificidad 002*/
+main form {
+    grid-column: 1 / -1;
+}
+
+/* Especificidad 002*/
+label input {
+    margin-left: 0.5em;
+}
+
+/*Especificidad 001*/
+div {
+    /*Genera warning por no establecer color de primer plano, pero lo hereda de body*/
+    background-color: #000A;
+    border: 0.4em solid black;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+/*Especificidad 001*/
+button {
+    background-color: #75E6DA;
+    color: #05445E;
+    border: 0.2em solid #05445E;
+    border-radius: 0.5em;
+    padding: 0.5em 0.6em;
+    font-size: 1.1em;
+    cursor: pointer;
+    outline: none;
+}
+
+/*Especificidad 011*/
+button:disabled {
+    /*Genera warning por no establecer color de primer plano, pero lo hereda de button*/
+    background-color: #b0b0b0;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+/*Especificidad 002*/
+main p {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+/*Especificidad 011*/
+button:first-of-type {
+    grid-column: 2 / span 1;
+}
+
+/*Especificidad 011*/
+button:nth-of-type(2) {
+    grid-column: 3 / span 1;
+}
+
+@keyframes background {
+    from {background-color: #000A;}
+    to {background-color: #ff0000;}
+}
+
+@keyframes out {
+    /*Generan warning por no establecer color de primer plano, pero lo hereda de body*/
+    /*Generan warning por redefinir el color de fondo pero es necesario para que el semáforo cambie de color*/
+    from {background-color: #ff0000;}
+    to {background-color: #000A;}
+}
+
+/*Especificidad 012*/
+main.load div {
+    animation-name: background;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+/*Especificidad 012*/
+main.load div:nth-of-type(2) {
+    animation-delay: 0.5s;
+}
+
+/*Especificidad 012*/
+main.load div:nth-of-type(3) {
+    animation-delay: 1s;
+}
+
+/*Especificidad 012*/
+main.load div:nth-of-type(4) {
+    animation-delay: 1.5s;
+}
+
+/*Especificidad 012*/
+main.unload div {
+    animation-name: out;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+}

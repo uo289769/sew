@@ -1,0 +1,66 @@
+/* Lucas Castro Antuña UO289769*/
+
+/* Especificidad 012*/
+body > section:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 55%;
+    margin-left: 25%;
+}
+
+/* Especificidad 013*/
+body > section:nth-of-type(2) > h2 {
+    text-align: center;
+    flex-basis: 100%;
+}
+
+/* Especificidad 001*/
+article {
+    transform-style: preserve-3d;
+    transition: transform .5s;
+    width: 10em;
+    height: 6em;
+    padding-bottom: 20%;
+    margin: 0.9em;
+    position: relative;
+}
+
+/* Especificidad 002, 002*/
+article img, article h3 {
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*Genera warning por no establecer color de primer plano, pero lo hereda de body*/
+    background-color: #ffff;
+    border-radius: 0.5em;
+    box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.1);
+}
+
+/* Especificidad 002*/
+article img {
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Especificidad 002*/
+article h3 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+/* Especificidad 011*/
+article[data-state="flip"] {
+    transform: rotateY(180deg);
+}
+
+/* Especificidad 011*/
+article[data-state="revealed"] {
+    transform: rotateY(180deg);
+}

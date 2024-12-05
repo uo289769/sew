@@ -1,0 +1,26 @@
+/* Lucas Castro Antuña UO289769*/
+
+/*Especificidad 012 */
+main > section:nth-of-type(3) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+}
+
+/*Especificidad 001 */
+article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0em;
+    margin: 1em;
+    padding: 1em;
+    /*Genera warning por no establecer color de fondo, pero lo hereda de body*/
+    background-color: #ffff;
+    border-radius: 0.7em;
+    box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.1);
+}

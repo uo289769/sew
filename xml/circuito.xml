@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE circuitos SYSTEM "circuito.dtd">
+
+<circuitos>
+    <circuito>
+        <nombre>Marina Bay</nombre>
+        <largura>5065 km</largura>
+        <anchura>10 m</anchura>
+        <fecha>Domingo 22 de Septiembre</fecha>
+        <hora>14:00</hora>
+        <vueltas>62</vueltas>
+        <localidad>Singapur</localidad>
+        <pais>Singapur</pais>
+        <referencias>
+            <referencia>https://es.wikipedia.org/wiki/Circuito_callejero_de_Marina_Bay</referencia>
+            <referencia>https://lebalap.academy/f1/circuito-de-singapur/</referencia>
+            <referencia>http://www.ligafantasticaf1.es/circuitos-f1/singapur.php</referencia>
+        </referencias>
+        <fotos>
+            <foto>marina-bay-circuit.jpeg</foto>
+        </fotos>
+        <videos></videos>
+        <coordenadas>
+            <longitud>103.86416549383493</longitud>
+            <latitud>1.2916970048725602</latitud>
+            <altitud>4,15 m</altitud>
+        </coordenadas>
+        <puntos>
+            <punto>
+                <coordenadas>
+                    <longitud>103.86416424200401</longitud>
+                    <latitud>1.291696711158246</latitud>
+                    <altitud>3,7 m</altitud>
+                </coordenadas>
+                <sector>1</sector>
+                <distancia>0 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.86378440164624</longitud>
+                    <latitud>1.2942826091513782</latitud>
+                    <altitud>4,07 m</altitud>
+                </coordenadas>
+                <sector>1</sector>
+                <distancia>288,35 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.86365301161858</longitud>
+                    <latitud>1.2943429340658352</latitud>
+                    <altitud>4,05 m</altitud>
+                </coordenadas>
+                <sector>1</sector>
+                <distancia>17,23 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.86323683819732</longitud>
+                    <latitud>1.294347498631495</latitud>
+                    <altitud>4 m</altitud>
+                </coordenadas>
+                <sector>1</sector>
+                <distancia>48,06 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.86278785162442</longitud>
+                    <latitud>1.2948141385645269</latitud>
+                    <altitud>3,65 m</altitud>
+                </coordenadas>
+                <sector>1</sector>
+                <distancia>71,08 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.86248409145357</longitud>
+                    <latitud>1.2947249778864582</latitud>
+                    <altitud>3,57 m</altitud>
+                </coordenadas>
+                <sector>1</sector>
+                <distancia>35,09 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.8624283623637</longitud>
+                    <latitud>1.2937388445015845</latitud>
+                    <altitud>2,92 m</altitud>
+                </coordenadas>
+                <sector>1</sector>
+                <distancia>111,23 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.86288055289671</longitud>
+                    <latitud>1.2924133280024066</latitud>
+                    <altitud>4,29 m</altitud>
+                </coordenadas>
+                <sector>1</sector>
+                <distancia>156,29 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.86293209141103</longitud>
+                    <latitud>1.2916728604730565</latitud>
+                    <altitud>4,01 m</altitud>
+                </coordenadas>
+                <sector>1</sector>
+                <distancia>79,32 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.86279357436746</longitud>
+                    <latitud>1.2914030570158412</latitud>
+                    <altitud>3,96 m</altitud>
+                </coordenadas>
+                <sector>1</sector>
+                <distancia>34,65 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.86241089215544</longitud>
+                    <latitud>1.2912397504703086</latitud>
+                    <altitud>4,04 m</altitud>
+                </coordenadas>
+                <sector>1</sector>
+                <distancia>45,27 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.85885156909383</longitud>
+                    <latitud>1.2914611700161405</latitud>
+                    <altitud>4,43 m</altitud>
+                </coordenadas>
+                <sector>1</sector>
+                <distancia>396,13 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.85588048148544</longitud>
+                    <latitud>1.293113149043403</latitud>
+                    <altitud>4,70 m</altitud>
+                </coordenadas>
+                <sector>2</sector>
+                <distancia>378,14 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.85490137006008</longitud>
+                    <latitud>1.2913796113336937</latitud>
+                    <altitud>4,97 m</altitud>
+                </coordenadas>
+                <sector>2</sector>
+                <distancia>220,8 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.85362292207954</longitud>
+                    <latitud>1.29260834687005</latitud>
+                    <altitud>5,78 m</altitud>
+                </coordenadas>
+                <sector>2</sector>
+                <distancia>195,77 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.85317997442313</longitud>
+                    <latitud>1.2923948365245408</latitud>
+                    <altitud>5,59 m</altitud>
+                </coordenadas>
+                <sector>2</sector>
+                <distancia>54,5 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.85143874244406</longitud>
+                    <latitud>1.2890852161443935</latitud>
+                    <altitud>5,31 m</altitud>
+                </coordenadas>
+                <sector>2</sector>
+                <distancia>414,48 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.85238153601746</longitud>
+                    <latitud>1.288305235855774</latitud>
+                    <altitud>5,05 m</altitud>
+                </coordenadas>
+                <sector>2</sector>
+                <distancia>51,84 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.852478328111</longitud>
+                    <latitud>1.287728094564119</latitud>
+                    <altitud>5,67 m</altitud>
+                </coordenadas>
+                <sector>2</sector>
+                <distancia>64,55 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.85332424664797</longitud>
+                    <latitud>1.287024496994362</latitud>
+                    <altitud>6,21 m</altitud>
+                </coordenadas>
+                <sector>2</sector>
+                <distancia>124,02 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.85384347663643</longitud>
+                    <latitud>1.2863769851698583</latitud>
+                    <altitud>7,94 m</altitud>
+                </coordenadas>
+                <sector>2</sector>
+                <distancia>90,4 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.8549495396649</longitud>
+                    <latitud>1.2913415437369349</latitud>
+                    <altitud>4,97 m</altitud>
+                </coordenadas>
+                <sector>3</sector>
+                <distancia>562,33 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.85683484318153</longitud>
+                    <latitud>1.289789019680129</latitud>
+                    <altitud>4,93 m</altitud>
+                </coordenadas>
+                <sector>3</sector>
+                <distancia>270,94 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.86118142043998</longitud>
+                    <latitud>1.289507169483381</latitud>
+                    <altitud>4,66 m</altitud>
+                </coordenadas>
+                <sector>3</sector>
+                <distancia>484,58 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.8612537941525</longitud>
+                    <latitud>1.2890117503404854</latitud>
+                    <altitud>4,16 m</altitud>
+                </coordenadas>
+                <sector>3</sector>
+                <distancia>56,41 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.86161924513054</longitud>
+                    <latitud>1.2887918648500798</latitud>
+                    <altitud>3,96 m</altitud>
+                </coordenadas>
+                <sector>3</sector>
+                <distancia>45,59 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.86397054919273</longitud>
+                    <latitud>1.288679382299125</latitud>
+                    <altitud>4,17 m</altitud>
+                </coordenadas>
+                <sector>3</sector>
+                <distancia>262,23 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.86447686092082</longitud>
+                    <latitud>1.2895135878359727</latitud>
+                    <altitud>4,13 m</altitud>
+                </coordenadas>
+                <sector>3</sector>
+                <distancia>109,17 m</distancia>
+            </punto>
+            <punto>
+                <coordenadas>
+                    <longitud>103.86416549383493</longitud>
+                    <latitud>1.2916970048725602</latitud>
+                    <altitud>4.15</altitud>
+                </coordenadas>
+                <sector>1</sector>
+                <distancia>244.10 m</distancia>
+            </punto>
+        </puntos>
+    </circuito>
+</circuitos>
