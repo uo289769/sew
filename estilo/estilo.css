@@ -24,6 +24,7 @@ body {
 
 /* Especificidad 001*/
 header {
+    /*Genera warning por no establecer color de primer plano, pero lo hereda de body*/
     background-color: #05445E;
 }
 
@@ -35,6 +36,7 @@ header a:visited {
 
 /* Especificidad 001*/
 nav {
+    /*Genera warning por no establecer color de primer plano, pero lo hereda de body*/
     background-color: #75E6DA;
     font-size: 1.2em;
 }
@@ -62,7 +64,7 @@ body > p:first-of-type {
     font-size: 0.9em;
 }
 
-/* Especificidad 003*/
+/* Especificidad 002*/
 li::marker {
     /*Genera warning por no establecer color de fondo, pero lo hereda de body*/
     color: #004080;
@@ -99,6 +101,8 @@ table {
     border-style: solid;
     border-collapse: collapse;
     text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 /* Especificidad 001*/
@@ -139,6 +143,7 @@ h1 {
 
 /* Especificidad 002*/
 h1 a {
+    /*Genera warning por no establecer color de fondo, pero lo hereda de header*/
     color: #ffffff;
     text-decoration: none;
 }
@@ -161,7 +166,7 @@ h4 {
 
 /*
 Utilizado para el mapa de la sesión 8
-Especificidad 001
+Especificidad 002
 */
 section > div {
     width: 70%;
@@ -170,8 +175,8 @@ section > div {
 
 /* Especificidad 001*/
 figure {
-    width: 95%;
-    height: 50vw;
+    width: 45%;
+    height: 20vw;
 }
 
 /* Especificidad 002*/
@@ -199,6 +204,12 @@ main > article {
     border-radius: 1em;
 }
 
+/* Especificidad 002*/
+td > img {
+    width: 50%;
+    height: auto;
+}
+
 /* Especificidad 003*/
 main > article > img {
     width: 100%;
@@ -220,6 +231,7 @@ main > article > button {
     border-radius: 50%;
     z-index: 10;
     cursor: pointer;
+    /*Genera warning por no establecer color de primer plano, pero lo hereda de body*/
     background-color: #fff;
     font-size: 1em;
     display: flex;
@@ -245,7 +257,129 @@ button:active {
     transform: scale(1.1);
 }
 
+@media screen and (max-width: 1279px) {
+    /* Especificidad 001*/
+    nav {
+        /*Genera warning por redefinir el tamaño de fuente pero es necesario para garantizar la adaptabilidad*/
+        font-size: 0.7em;
+    }
+
+    /* Especificidad 001, 001, 001*/
+    p, figcaption, button {
+        font-size: 0.85em;
+    }
+
+    /* Especificidad 001, 001*/
+    li, dd {
+        font-size: 0.9em;
+    }
+
+    /* Especificidad 001*/
+    dt {
+        /*Genera warning por redefinir el tamaño de fuente pero es necesario para garantizar la adaptabilidad*/
+        font-size: 1.1em;
+    }
+    
+    /* Especificidad 001, 001*/
+    input, label {
+        font-size: 0.75em;
+    }
+
+    /* Especificidad 001*/
+    h1 {
+        /*Genera warning por redefinir el tamaño de fuente pero es necesario para garantizar la adaptabilidad*/
+        font-size: 2em;
+    }
+
+    /* Especificidad 001*/
+    h2 {
+        /*Genera warning por redefinir el tamaño de fuente pero es necesario para garantizar la adaptabilidad*/
+        font-size: 1.6em;
+    }
+
+    /* Especificidad 001*/
+    h3 {
+        /*Genera warning por redefinir el tamaño de fuente pero es necesario para garantizar la adaptabilidad*/
+        font-size: 1.4em;
+    }
+
+    /* Especificidad 001*/
+    h4 {
+        /*Genera warning por redefinir el tamaño de fuente pero es necesario para garantizar la adaptabilidad*/
+        font-size: 0.9em;
+    }
+
+    /* Especificidad 001*/
+    figure {
+        /*Genera warning por redefinir la anchura pero es necesario para garantizar la adaptabilidad*/
+        width: 60%;
+        /*Genera warning por redefinir la altura pero es necesario para garantizar la adaptabilidad*/
+        height: 30vw;
+        margin-left: 0.1em;
+    }
+}
+
 @media screen and (max-width: 799px) {
+
+    /* Especificidad 001*/
+    nav {
+        /*Genera warning por redefinir el tamaño de fuente pero es necesario para garantizar la adaptabilidad*/
+        font-size: 0.9em;
+    }
+
+    /* Especificidad 001, 001, 001*/
+    p, figcaption, button {
+        font-size: 0.85em;
+    }
+
+    /* Especificidad 001, 001*/
+    li, dd {
+        font-size: 0.8em;
+    }
+
+    /* Especificidad 001*/
+    dt {
+        /*Genera warning por redefinir el tamaño de fuente pero es necesario para garantizar la adaptabilidad*/
+        font-size: 1em;
+    }
+    
+    /* Especificidad 001, 001*/
+    input, label {
+        font-size: 0.65em;
+    }
+
+    /* Especificidad 001*/
+    h1 {
+        /*Genera warning por redefinir el tamaño de fuente pero es necesario para garantizar la adaptabilidad*/
+        font-size: 2em;
+    }
+
+    /* Especificidad 001*/
+    h2 {
+        /*Genera warning por redefinir el tamaño de fuente pero es necesario para garantizar la adaptabilidad*/
+        font-size: 1.6em;
+    }
+
+    /* Especificidad 001*/
+    h3 {
+        /*Genera warning por redefinir el tamaño de fuente pero es necesario para garantizar la adaptabilidad*/
+        font-size: 1.4em;
+    }
+
+    /* Especificidad 001*/
+    h4 {
+        /*Genera warning por redefinir el tamaño de fuente pero es necesario para garantizar la adaptabilidad*/
+        font-size: 0.9em;
+    }
+
+    /* Especificidad 001*/
+    figure {
+        /*Genera warning por redefinir la anchura pero es necesario para garantizar la adaptabilidad*/
+        width: 60%;
+        /*Genera warning por redefinir la altura pero es necesario para garantizar la adaptabilidad*/
+        height: 30vw;
+        margin-left: 0.1em;
+    }
 
     /* Especificidad 001*/
     table {
@@ -261,7 +395,7 @@ button:active {
 
     /* Especificidad 001*/
     th {
-        /*Genera warning por redefinir el padding pero es necesario*/
+        /*Genera warning por redefinir el padding pero es necesario para garantizar la adaptabilidad*/
         padding: 0.2em;
     }
     
@@ -269,5 +403,68 @@ button:active {
     audio {
         width: 85%;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    
+    /* Especificidad 001*/
+    nav {
+        /*Genera warning por redefinir el tamaño de fuente pero es necesario para garantizar la adaptabilidad*/
+        font-size: 0.9em;
+    }
+
+    /* Especificidad 001, 001, 001*/
+    p, figcaption, button {
+        font-size: 0.65em;
+    }
+
+    /* Especificidad 001, 001*/
+    li, dd {
+        font-size: 0.7em;
+    }
+
+    /* Especificidad 001*/
+    dt {
+        /*Genera warning por redefinir el tamaño de fuente pero es necesario para garantizar la adaptabilidad*/
+        font-size: 0.9em;
+    }
+    
+    /* Especificidad 001, 001*/
+    input, label {
+        font-size: 0.55em;
+    }
+
+    /* Especificidad 001*/
+    h1 {
+        /*Genera warning por redefinir el tamaño de fuente pero es necesario para garantizar la adaptabilidad*/
+        font-size: 2em;
+    }
+
+    /* Especificidad 001*/
+    h2 {
+        /*Genera warning por redefinir el tamaño de fuente pero es necesario para garantizar la adaptabilidad*/
+        font-size: 1.6em;
+    }
+
+    /* Especificidad 001*/
+    h3 {
+        /*Genera warning por redefinir el tamaño de fuente pero es necesario para garantizar la adaptabilidad*/
+        font-size: 1.4em;
+    }
+
+    /* Especificidad 001*/
+    h4 {
+        /*Genera warning por redefinir el tamaño de fuente pero es necesario para garantizar la adaptabilidad*/
+        font-size: 0.9em;
+    }
+
+    /* Especificidad 001*/
+    figure {
+        /*Genera warning por redefinir la anchura pero es necesario para garantizar la adaptabilidad*/
+        width: 60%;
+        /*Genera warning por redefinir la altura pero es necesario para garantizar la adaptabilidad*/
+        height: 30vw;
+        margin-left: 0.1em;
     }
 }
