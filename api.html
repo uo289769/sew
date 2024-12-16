@@ -7,13 +7,20 @@
     <title>F1 Desktop</title>
     <meta name ="author" content ="Lucas Castro Antuña" />
     <meta name ="description" content ="documento sobre la api de F1 Desktop" />
-    <meta name ="keywords" content ="F1, Desktop, Api" />
+    <meta name ="keywords" content ="F1, Desktop, Api, Audio" />
     <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
     
     <link rel="icon" href="multimedia/imagenes/favicon.png" />
+
+    <script
+		src="https://code.jquery.com/jquery-3.7.1.min.js"
+		integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+		crossorigin="anonymous">
+    </script>
+    <script src="js/api.js"></script>
 </head>
 
 <body>
@@ -44,7 +51,17 @@
             <a href="memoria.html" title="enlace al juego de memoria">Memoria</a>
             <a href="semaforo.php" title="enlace al juego del semaforo">Semáforo</a>
             <a href="api.html" title="enlace a la api">API</a>
+            <a href="php/ligaFantasy.php" title="enlace a la liga fantasy">Liga Fantasy</a>
         </nav>
     </section>
+
+    <main>
+        <script>var api = new Api();</script>
+
+        <section>
+            <h4>Cargar la información de los pilotos:</h4>
+            <input type="file" onchange="api.readInputFile(this.files);">
+        </section>
+    </main>
 </body>
 </html>
